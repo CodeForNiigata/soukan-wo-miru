@@ -1,0 +1,88 @@
+h1 {
+  font-size: 2em;
+}
+
+.value-label {
+  font-size: 16px;
+  vertical-align: middle;
+  padding: 6px 0;
+  margin-bottom: 0;
+  margin-right: 1em;
+}
+
+.value-label:after {
+  content: " :"
+}
+
+.category-dropdown {
+  margin-right: 1em;
+}
+
+.colelation-values {
+  margin-top: 8px;
+}
+
+.meta {
+  color: #aaaaaa;
+}
+
+.unit, .season {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.colelation-values th,
+.colelation-values td {
+  width: 50%;
+}
+
+.colelation-values th {
+  background-color: #f9f9f9;
+}
+
+.colelation-values td {
+  text-align: right;
+}
+
+.cities tbody tr:hover {
+  cursor: pointer;
+  background-color: #ffffe0 !important;
+}
+
+.cities thead th:nth-child(3),
+.cities thead th:nth-child(4) {
+  text-align: right;
+}
+
+.favorite.glyphicon-star-empty {
+  color: #cccccc;
+}
+
+.favorite.glyphicon-star {
+  color: #ffd700;
+}
+
+.favorited-name {
+  font-weight: bold;
+}
+
+.favorited-point {
+  fill: #ffd700;
+}
+
+.point:hover {
+  cursor: pointer;
+  fill: #9c27b0;
+}
+
+.graph-tooltip {
+  position: absolute;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.66);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.graph-tooltip .title {
+  font-weight: bold;
+}
